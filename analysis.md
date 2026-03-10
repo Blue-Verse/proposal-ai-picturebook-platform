@@ -84,4 +84,115 @@ job:
 
 ## 6. 최종 산출물 (8단계 출력 전문)
 
-(8단계 완료 후 추가)
+### 제안서 사이트 URL
+https://blue-verse.github.io/proposal-ai-picturebook-platform/
+
+### 지원 금액
+36,000,000원
+
+### 지원 기간
+90일
+
+### 클라이언트 질문 답변
+없음
+
+### 지원 내용
+
+안녕하세요, AI 기반 다국어 그림책 제작 웹 플랫폼 구축 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://blue-verse.github.io/proposal-ai-picturebook-platform/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/portfolio/
+
+---
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 생성형 AI(텍스트·이미지)와 웹 캔버스 에디터를 결합한 그림책 창작 플랫폼 구축 프로젝트
+- 첨부 사용자 플로우 이미지("나만의 그림책 만들기")를 상세 분석하여, 이야기 씨앗 찾기→씨앗 심기→물주기→줄기 만들기→스토리보드→삽화 생성→꾸미기의 9단계 위자드 UX 패턴을 확인
+- 핵심 난이도: (1) AI API 연동(텍스트 생성 + 이미지 생성 + 교정), (2) 웹 캔버스 에디터(DnD, 템플릿, 자동 저장), (3) PDF 출판 파이프라인
+- 클라이언트 우선순위([1] 산출물 완성도, [2] 금액, [3] 일정)에 맞춰 핵심 기능 위주 MVP 90일 납품 제안
+
+■ 작업 일정
+
+[Phase 1: 기획/설계] Day 1–12
+- IA 설계, 화면 설계서(와이어프레임), 기능 명세서
+- AI 프롬프트 엔지니어링 설계 (스토리 생성·이미지 생성·교정 프롬프트)
+
+[Phase 2: UI/UX 디자인] Day 13–25
+- 디자인 시스템 구축 (색상, 타이포, 컴포넌트)
+- AI 창작 위자드(9단계), 캔버스 에디터, 커뮤니티/갤러리, 관리자 UI (PC/Tablet 반응형)
+
+[Phase 3: 코어 개발] Day 26–72
+- 인프라 세팅 (Next.js + Express + MongoDB + Docker + AWS)
+- AI 창작 위자드 9단계 전체 플로우 + 캔버스 에디터 (Fabric.js)
+- PDF 출판 파이프라인 + 책 넘김 미리보기
+- 커뮤니티/갤러리 + 관리자 페이지
+
+[Phase 4: QA/배포] Day 73–90
+- 통합 테스트, 크로스 브라우저 테스트, 버그 수정
+- AWS 프로덕션 배포, 문서 정리 및 이관
+
+■ 마일스톤 및 산출물
+- M1 (Day 12): 기획/설계 완료 — IA, 화면설계서, 기능명세서, AI 프롬프트 설계서
+- M2 (Day 25): 디자인 완료 — Figma 전체 페이지 디자인
+- M3 (Day 55): 핵심 기능 데모 — AI 위자드 + 캔버스 에디터 동작 확인
+- M4 (Day 72): 전체 기능 통합 — 출판, 커뮤니티, 관리자 포함
+- M5 (Day 90): 최종 납품 — 프로덕션 배포, 소스 코드·기획 문서·Figma 전체 이관
+
+■ 미팅 시 협의 필요 사항
+- AI 이미지 생성 API 선택 (OpenAI DALL-E 3 vs Stability AI) — 품질·비용·속도 비교
+- 일러스트 스타일별 프롬프트 최적화 방향 (수채화, 크래프트, 라인 드로잉 등)
+- Phase 2 범위 (ePub 변환, 다국어 번역, 고급 관리자 통계) 우선순위
+- 정부지원사업 신청서에 필요한 기술 구현 방안 문서 형식
+
+---
+
+<유사 프로젝트 진행 경험>
+
+▶ EZ-Approve (2026.01~2026.03)
+- 프로젝트 유형: B2B SaaS 전자결재 플랫폼
+- 핵심 기능: Lexical 기반 170파일 리치 에디터(26 커스텀 노드, 40+ 플러그인), Yjs 실시간 공동편집, 8종 결재 엔진
+- 유사점: 캔버스 에디터의 DnD, 레이어 관리, 템플릿, 실시간 자동 저장이 그림책 에디터 구현에 직접 활용
+- 기술 스택: NestJS, Next.js, TypeScript, MySQL, Lexical+Yjs, Docker
+
+▶ Series-B (2023.11~2024.12)
+- 프로젝트 유형: VC 펀드 관리 핀테크 SaaS
+- 핵심 기능: ChatGPT API 연동 AI 투자 보고서 생성, 7중 PDF 문서 처리 파이프라인, 다국어(한/영)
+- 유사점: AI API 프롬프트 설계·비용 최적화 경험 + PDF 출판 파이프라인이 핵심 요구사항에 직접 부합
+- 기술 스택: Next.js, NestJS, MySQL, ChatGPT API, AWS
+
+▶ AI-Native Development Framework (2025~)
+- 프로젝트 유형: AI 에이전트 통합 개발 프레임워크
+- 핵심 기능: 4종 AI 에이전트 오케스트레이션, 134+ 프롬프트 스킬, Document Intelligence
+- 유사점: AI/LLM 통합 및 프롬프트 엔지니어링 전문성이 스토리·이미지·교정 프롬프트 최적화에 활용
+- 기술 스택: TypeScript, React, Claude SDK, TailwindCSS
+
+---
+
+<사용 기술과 툴>
+
+▶ 개발 기술
+- 프론트엔드: Next.js 14, React 18, TypeScript, TailwindCSS, Fabric.js (캔버스 에디터)
+- 백엔드: Node.js, Express.js, MongoDB
+- AI: OpenAI API (GPT-4o, DALL-E 3), Python (AI 파이프라인)
+- 인프라: AWS (S3, EC2/ECS, CloudFront), Docker
+
+▶ 개발 도구 및 인프라
+- 버전 관리: GitHub
+- CI/CD: GitHub Actions
+- 클라우드: AWS
+- 컨테이너: Docker
+
+▶ 커뮤니케이션
+- 일일 진행 공유: Slack 또는 카카오톡
+- 주간 미팅: Zoom / Google Meet
+- 문서 공유: Notion 또는 Google Docs
+- 이슈 트래킹: GitHub Issues
+
+### 관련 포트폴리오 추천
+
+1. **EZ-Approve** — 170파일 Lexical 리치 에디터 구축 경험 (캔버스 에디터 유사)
+2. **Series-B** — ChatGPT API 연동 + 7중 PDF 파이프라인 (AI + 출판 유사)
+3. **AI-Native Development Framework** — AI/LLM 프롬프트 엔지니어링 (AI 창작 보조 유사)
