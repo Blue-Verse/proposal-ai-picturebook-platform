@@ -85,7 +85,7 @@ job:
 ## 6. 최종 산출물 (8단계 출력 전문)
 
 ### 제안서 사이트 URL
-https://proposal-ai-picturebook-platform.pages.dev/
+https://proposal-router.claude-ai-b27.workers.dev/proposal-ai-picturebook-platform/
 
 ### 지원 금액
 36,000,000원
@@ -101,7 +101,7 @@ https://proposal-ai-picturebook-platform.pages.dev/
 안녕하세요, AI 기반 다국어 그림책 제작 웹 플랫폼 구축 프로젝트에 지원합니다.
 
 본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
-▶ 제안서 상세 페이지: https://proposal-ai-picturebook-platform.pages.dev/
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-ai-picturebook-platform/
 ▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/portfolio/
 
 ---
